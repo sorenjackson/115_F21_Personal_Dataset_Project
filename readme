@@ -1,30 +1,39 @@
-     DATE           Black.cases..per.100.000. AI.AN..NH.Cases..per.100.000. White.cases..per.100.000.  Black.deaths  
- Length:13          Min.   : 59.4             Min.   :188.2                 Min.   : 96.8             Min.   :0.470  
- Class :character   1st Qu.: 93.2             1st Qu.:209.1                 1st Qu.:122.0             1st Qu.:1.110  
- Mode  :character   Median :144.4             Median :231.8                 Median :136.9             Median :2.200  
-                    Mean   :133.0             Mean   :244.7                 Mean   :136.0             Mean   :1.887  
-                    3rd Qu.:171.9             3rd Qu.:255.9                 3rd Qu.:157.2             3rd Qu.:2.520  
-                    Max.   :201.0             Max.   :436.8                 Max.   :170.7             Max.   :3.210  
- AI.AN..NH.deaths  White.deaths  
- Min.   :1.400     Min.   :1.070  
- 1st Qu.:2.260     1st Qu.:1.970  
- Median :3.160     Median :2.300  
- Mean   :2.891     Mean   :2.256  
- 3rd Qu.:3.530     3rd Qu.:2.740  
- Max.   :4.070     Max.   :2.940     
+     DATE           Black.cases..per.100.000.     AI.AN..NH.Cases..per.100.000. White.cases..per.100.000.  Black.deaths  
+ Length:13          Min.   : 59.4                 Min.   :188.2                 Min.   : 96.8              Min.   :0.470  
+ Class :character   1st Qu.: 93.2                 1st Qu.:209.1                 1st Qu.:122.0              1st Qu.:1.110  
+ Mode  :character   Median :144.4                 Median :231.8                 Median :136.9              Median :2.200  
+                    Mean   :133.0                 Mean   :244.7                 Mean   :136.0              Mean   :1.887  
+                    3rd Qu.:171.9                 3rd Qu.:255.9                 3rd Qu.:157.2              3rd Qu.:2.520  
+                    Max.   :201.0                 Max.   :436.8                 Max.   :170.7              Max.   :3.210  
+                    
+                    AI.AN..NH.deaths              White.deaths  
+                    Min.   :1.400                 Min.   :1.070  
+                    1st Qu.:2.260                 1st Qu.:1.970  
+                    Median :3.160                 Median :2.300  
+                    Mean   :2.891                 Mean   :2.256  
+                    3rd Qu.:3.530                 3rd Qu.:2.740  
+                    Max.   :4.070                 Max.   :2.940     
                     
 Description: For my initial Analysis, I decided to take the summary function of my Personal Dataset, after comparing 5 data points each from COVID-19 case data
 between black and white people. [EDITED: Upon further analysis, I've adjusted my summary function to match the new data I've entered since I started this project.]
 
-MOTIVATION: Covid-19 has caused a wide variety of problems, as well as some previously unheard-of solutions, including the development of mRNA vaccines, which was meant to address
+MOTIVATION: 
+
+Covid-19 has caused a wide variety of problems, as well as some previously unheard-of solutions, including the development of mRNA vaccines, which was meant to address
 the slow process of which vaccines were previously developed. One problem that remains persistant is the issue of health disparities when it comes to minority groups and how they
 deal with covid-19 cases, hospitalizations, and deaths compared to white people. I wanted to center my project around this issue in hopes that it can bring enough attention to
 the general public, and maybe the right person (or people) can come up with a solid, data-based solution.
 
-DATA PROCESS: My main and sole resource for my Personal Dataset is the CDC website for Covid-19 Data (https://covid.cdc.gov/covid-data-tracker/#demographicsovertime). I was
+DATA PROCESS: 
+
+My main and sole resource for my Personal Dataset is the CDC website for Covid-19 Data (https://covid.cdc.gov/covid-data-tracker/#demographicsovertime). I was
 notably pleased by how organized and structured their data was, considering the sheer amount of it they had to work with. I started by collecting data on new covid cases in the US
 (per 100,000) from August 7th to October 30th, with each data point being separated by week (13 weeks total), and then comparing them by race. The three ethnic groups I chose to 
 highlight were White, Black, and Indigenous/Islander (AI/AN, NH). Making my own .csv file, I simply translated the data points into respective columns divided by case rates by
 race, as well as death rates by race, with rows separated by date of cases reported.
 
-VISUALIZATIONS:
+VISUALIZATIONS: [SEE COMMENT ON README FOR VIZ]
+
+
+ANALYSIS: 
+
