@@ -15,25 +15,34 @@
                     Max.   :4.070                 Max.   :2.940     
                     
 Description: For my initial Analysis, I decided to take the summary function of my Personal Dataset, after comparing 5 data points each from COVID-19 case data
-between black and white people. [EDITED: Upon further analysis, I've adjusted my summary function to match the new data I've entered since I started this project.]
+between black and white people in the United States. [EDITED: Upon further analysis, I've adjusted my summary function to match the new data I've entered since I started this
+project.]
 
 MOTIVATION: 
 
 Covid-19 has caused a wide variety of problems, as well as some previously unheard-of solutions, including the development of mRNA vaccines, which was meant to address
-the slow process of which vaccines were previously developed. One problem that remains persistant is the issue of health disparities when it comes to minority groups and how they
-deal with covid-19 cases, hospitalizations, and deaths compared to white people. I wanted to center my project around this issue in hopes that it can bring enough attention to
+the slow process of which vaccines were previously developed. One problem that remains persistant is the issue of health disparities when it comes to minority groups and how 
+they deal with covid-19 cases, hospitalizations, and deaths compared to white people. I wanted to center my project around this issue in hopes that it can bring enough attention to
 the general public, and maybe the right person (or people) can come up with a solid, data-based solution.
 
 DATA PROCESS: 
 
 My main and sole resource for my Personal Dataset is the CDC website for Covid-19 Data (https://covid.cdc.gov/covid-data-tracker/#demographicsovertime). I was
-notably pleased by how organized and structured their data was, considering the sheer amount of it they had to work with. I started by collecting data on new covid cases in the US
-(per 100,000) from August 7th to October 30th, with each data point being separated by week (13 weeks total), and then comparing them by race. The three ethnic groups I chose to 
-highlight were White, Black, and Indigenous/Islander (AI/AN, NH). Making my own .csv file, I simply translated the data points into respective columns divided by case rates by
-race, as well as death rates by race, with rows separated by date of cases reported.
+notably pleased by how organized and structured their data was, considering the sheer amount of it they had to work with. After making initial observations and decisions,
+I started by collecting data on new covid cases and deaths in the US (per 100,000) from August 7th to October 30th, with each data point being separated by week (13 weeks total),
+and then comparing them by race. The three ethnic groups I chose to highlight were White, Black, and Indigenous/Islander (AI/AN, NH). Making my own .csv file, I simply 
+translated the data points into respective columns divided by case rates by race, as well as death rates by race, with rows separated by date of cases reported.
 
 VISUALIZATIONS: [SEE COMMENT ON README FOR VIZ]
 
 
 ANALYSIS: 
 
+For my analysis of the data, I wanted to start with the summary function because I felt that that would be the best place to start making initial observations. When I first
+started, I was only comparing 5 data points in cases between white and black people, which did end up achieving my initial goal in showing the disparities in case rates by
+ethnic group. However, looking at my data source, I noticed two things. The first being that there was one ethnic group in particular who had the highest recorded case and death rates
+among all recorded groups, that being the "AI/AN, NH" group (American Indian/Alaskan Native, Native Hawaiian). Given this new data, I entered them in as seperate columns to my
+case and death rate sections, along with prolonging the date range to get a more accurate look at the data's general trend. The second thing I noticed was that, while black
+people exceeded white people in cases and death rates in my first iteration of the data, after adding additional dates, I noticed that around the end of August, beginning of
+September, both groups broke even and eventually flipped rates, which I thought was interesting to note (maybe natural immunity was kicking in? or maybe enough 
+campaigning had been made to predominately-black communities to make a difference).
