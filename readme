@@ -33,8 +33,6 @@ I started by collecting data on new covid cases and deaths in the US (per 100,00
 and then comparing them by race. The three ethnic groups I chose to highlight were White, Black, and Indigenous/Islander (AI/AN, NH). Making my own .csv file, I simply 
 translated the data points into respective columns divided by case rates by race, as well as death rates by race, with rows separated by date of cases reported.
 
-VISUALIZATIONS: [SEE COMMENT ON README FOR VIZ]
-
 
 ANALYSIS: 
 
